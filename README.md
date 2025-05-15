@@ -1,53 +1,44 @@
-# ISO27001-ISMS-Portfolio
-University project implementing a full ISO 27001-compliant Information Security Management System (ISMS).
-University of Bradford – MSc Cybersecurity  
-Simulated client: XY Innovate (Fintech)
+# ISO 27001 Information Security Management System (ISMS) Portfolio
 
-This project showcases a full ISO 27001-compliant Information Security Management System (ISMS) portfolio, including scope definition, OCTAVE Allegro-based risk assessment, a Statement of Applicability (SoA), and supporting security policies. It demonstrates practical alignment to GDPR, PCI DSS, and ISO 27001:2022 standards.
+This repository contains my academic ISO 27001 implementation portfolio for the fictional fintech company **XY Innovate**, created as part of my MSc Cybersecurity coursework.
 
----
+The project showcases a complete ISO 27001 implementation for a digital wallet service, including scope definition, risk assessment (OCTAVE Allegro), Statement of Applicability, and custom policy documents.
 
-🔍 Project Deliverables
+## 📁 Project Structure
 
- 📘 Scope Document
-Defines the scope, boundaries, and asset selection for the ISMS based on ISO 27001 clause 4.3.  
-📄 [Scope-Statement.pdf](./Scope-Statement.pdf)
+| File | Description |
+|------|-------------|
+| `scope.pdf` | Public statement defining the boundaries and coverage of the ISMS. |
+| `Risk Assesment Portfolio.pdf` | Full OCTAVE Allegro risk analysis, including threat scenarios and impact classification. |
+| `Statement_of_Applicability.xlsx` | ISO 27001 SoA document listing control selection and justifications. |
+| `Remote_Access_Policy.docx` | Policy covering secure remote access procedures. |
+| `Data_Breach_Procedure.docx` | Incident response steps in the event of a data breach. |
+| `Incident_Response_Process.docx` | Escalation and action protocols during security incidents. |
+| `Data_Access_control_record.docx` | Internal data access logging and tracking template. |
 
-📘 Risk Assessment Portfolio
-Built using the OCTAVE Allegro methodology, with full risk matrix, scenario evaluation, impact mapping, and risk treatment planning.  
-📄 [Risk-Assessment-Portfolio.pdf](./Risk-Assessment-Portfolio.pdf)
+## 🧠 Key Skills Demonstrated
 
- 📘 Statement of Applicability (SoA)
-Annex A control mapping with justification for inclusion/exclusion, aligned to threat scenarios.  
-📄 [Statement-of-Applicability.xlsx](./Statement-of-Applicability.xlsx)
+- ISO/IEC 27001:2022 compliance implementation  
+- Risk management using OCTAVE Allegro  
+- Control selection and documentation (SoA)  
+- Policy development (Access, Breach, Response)  
+- Documentation architecture for audit readiness  
 
----
+## 🎯 Scope of Work
 
- 📁 Security Policies & Documentation
+The ISMS covers XY Innovate's digital wallet services, customer PII, backend software, and associated infrastructure at the Newcastle office. The goal was to design an ISMS aligned with ISO 27001 for future certification, while mitigating risks and improving internal control structure.
 
-All documents written and formatted to meet ISO 27001, GDPR, and SOC compliance expectations.
+## 🔐 Security Focus Areas
 
-📂 **Policies**  
-- [Remote Access Policy](./Policies/Remote-Access-Policy.pdf)  
-- [Data Breach Procedure](./Policies/Data-Breach-Procedure.pdf)  
-- [Incident Response Process](./Policies/Incident-Response-Process.pdf)  
-- [Data Access Control Record](./Policies/Data-Access-Control-Record.pdf)
+- Data confidentiality and access control  
+- Legal compliance (GDPR, PCI-DSS)  
+- Remote work security  
+- Threat and vulnerability analysis  
+- Incident response planning  
 
----
+## 📜 References
 
- 🛠️ Tools & Standards Used
-
-- ISO/IEC 27001:2022, 27002, 27003  
-- OCTAVE Allegro Risk Assessment  
-- GDPR Article 33  
-- Microsoft Word, Excel, PDF  
-- Simulated SIEM principles (log review, access monitoring)
-
----
-
- ✅ Key Outcomes
-
-- Built a complete audit-ready ISMS framework  
-- Aligned controls to real-world risk and compliance needs  
-- Authored policy documentation covering remote access, breach response, and data governance  
-- Demonstrated understanding of enterprise-level security governance
+- ISO/IEC 27001:2022  
+- NIST SP 800-53  
+- Dhillon (2019), Von Solms & Van Niekerk (2013)  
+- Gartner Research (2024)
