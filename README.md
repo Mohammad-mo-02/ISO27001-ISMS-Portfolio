@@ -1,44 +1,58 @@
-# ISO 27001 Information Security Management System (ISMS) Portfolio
+ ISO 27001 ISMS Implementation Portfolio 🚀  
+[![Academic Project](https://img.shields.io/badge/MSc%20Project-ISO27001-blue)](https://github.com/Mohammad-mo-02)
 
-This repository contains my academic ISO 27001 implementation portfolio for the fictional fintech company **XY Innovate**, created as part of my MSc Cybersecurity coursework.
+A full ISO 27001-aligned Information Security Management System (ISMS) portfolio, developed as part of my MSc Cybersecurity degree at the University of Bradford. This project simulates an ISMS rollout for a fintech organisation, **XY Innovate**, covering risk analysis, security controls, and policy development — aligned with ISO/IEC 27001:2022 and GDPR.
 
-The project showcases a complete ISO 27001 implementation for a digital wallet service, including scope definition, risk assessment (OCTAVE Allegro), Statement of Applicability, and custom policy documents.
+---
 
-## 📁 Project Structure
+ 📁 Included Documents
 
-| File | Description |
-|------|-------------|
-| `scope.pdf` | Public statement defining the boundaries and coverage of the ISMS. |
-| `Risk Assesment Portfolio.pdf` | Full OCTAVE Allegro risk analysis, including threat scenarios and impact classification. |
-| `Statement_of_Applicability.xlsx` | ISO 27001 SoA document listing control selection and justifications. |
-| `Remote_Access_Policy.docx` | Policy covering secure remote access procedures. |
-| `Data_Breach_Procedure.docx` | Incident response steps in the event of a data breach. |
-| `Incident_Response_Process.docx` | Escalation and action protocols during security incidents. |
-| `Data_Access_control_record.docx` | Internal data access logging and tracking template. |
+| 📂 File | 📄 Description |
+|--------|----------------|
+| `scope.pdf` | Defines the ISMS scope, boundaries, and asset justifications (Clause 4.3). |
+| `Risk Assesment Portfolio.pdf` | OCTAVE Allegro-based risk assessment and treatment planning. |
+| `Statement_of_Applicability.xlsx` | Full control mapping and SoA with justification rationale. |
+| `Remote_Access_Policy.docx` | Secure remote access standards (RBAC, VPN, MFA). |
+| `Data_Breach_Procedure.docx` | Breach containment, reporting, and forensic protocols. |
+| `Incident_Response_Process.docx` | Structured response and escalation model. |
+| `Data_Access_control_record.docx` | Log and approval system for sensitive data access. |
 
-## 🧠 Key Skills Demonstrated
+---
 
-- ISO/IEC 27001:2022 compliance implementation  
-- Risk management using OCTAVE Allegro  
-- Control selection and documentation (SoA)  
-- Policy development (Access, Breach, Response)  
-- Documentation architecture for audit readiness  
+🛠️ Tools & Frameworks
 
-## 🎯 Scope of Work
+- 📜 ISO/IEC 27001:2022, ISO 27002  
+- 📊 OCTAVE Allegro Risk Methodology  
+- 🔐 GDPR Article 33 Compliance  
+- 🖥️ Microsoft Excel, Word (for SoA, reports, policy drafting)
 
-The ISMS covers XY Innovate's digital wallet services, customer PII, backend software, and associated infrastructure at the Newcastle office. The goal was to design an ISMS aligned with ISO 27001 for future certification, while mitigating risks and improving internal control structure.
+---
 
-## 🔐 Security Focus Areas
+ 🧠 Key Concepts Demonstrated
 
-- Data confidentiality and access control  
-- Legal compliance (GDPR, PCI-DSS)  
-- Remote work security  
-- Threat and vulnerability analysis  
-- Incident response planning  
+✅ Scope definition & boundary control  
+✅ Risk modelling using real-world scenarios (Equifax, PayPal)  
+✅ Security control selection & justification  
+✅ Full SoA lifecycle  
+✅ Drafting compliant security policies for audit-readiness  
+✅ Governance alignment with PCI-DSS, NIST, and GDPR
 
-## 📜 References
+---
 
-- ISO/IEC 27001:2022  
-- NIST SP 800-53  
-- Dhillon (2019), Von Solms & Van Niekerk (2013)  
-- Gartner Research (2024)
+ 🏢 Simulated Organisation: XY Innovate (Fintech)
+
+- Covers digital wallet infrastructure, backend software, customer PII, and remote teams.  
+- Audit-preparation portfolio designed for ISO 27001 certification.  
+- Scoped to the Newcastle headquarters with hybrid team operations.
+
+---
+
+ 🔗 Contact & Links
+
+📧 arsalanmahmood893@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/mohammad-mahmood-ba1a321ba)
+
+---
+
+> *This repository was created as part of an MSc in Cybersecurity (2024/25) at the University of Bradford.*
+
