@@ -5,19 +5,27 @@
 
 ## Executive Governance Overview
 
-This repository presents a structured implementation of an Information Security Management System (ISMS) aligned to ISO/IEC 27001:2022, developed for a simulated fintech organisation, XY Innovate, as part of an MSc Cybersecurity programme.
+# ISO/IEC 27001:2022 Information Security Management System (ISMS) Portfolio  
 
-The portfolio demonstrates the practical design and documentation of an ISMS covering scope definition, risk assessment using OCTAVE Allegro, Annex A control mapping through a Statement of Applicability, and the development of operational security policies.
+## Executive Overview  
 
-The objective of this implementation was to establish a certification-oriented ISMS framework capable of:
+This repository presents a structured ISO/IEC 27001:2022-aligned Information Security Management System (ISMS) designed for a digital wallet organisation (XY Innovate).  
 
-- Protecting digital wallet infrastructure and customer financial data
-- Addressing regulatory obligations including GDPR
-- Strengthening governance maturity following cyber risk exposure
-- Aligning security controls with identified organisational risks
-- Supporting ISO/IEC 27001:2022 audit readiness
+The project demonstrates the design and documentation of a risk-based governance framework tailored to a financial technology environment handling sensitive customer data, financial transactions, and cloud-hosted infrastructure.  
 
-All documentation contained within this repository reflects a structured, risk-based approach to information security governance.
+The ISMS was developed in accordance with ISO/IEC 27001 requirements, integrating:  
+
+- Organisational context and defined scope  
+- Structured risk assessment and treatment methodology  
+- Statement of Applicability (SoA) with control justification  
+- Operational security policies (remote access, incident response)  
+- GDPR-aligned data breach governance procedures  
+- Formal access control lifecycle management  
+- Continuous improvement integration via the PDCA model  
+
+The objective of this portfolio is to demonstrate applied understanding of ISO 27001 governance principles, regulatory alignment, and operational control implementation within a realistic fintech context.  
+
+This repository reflects structured ISMS design, risk-based decision-making, and audit-aware documentation practice at postgraduate level.
 
 ---
 
