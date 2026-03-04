@@ -487,3 +487,442 @@ The policy shows:
 This elevates the policy beyond theory into enforceable governance practice.
 
 ---
+---
+
+### 2. Incident Response Process  
+**(Reference: Incident_Response_Process.pdf)**
+
+The Incident Response Process defines the structured framework for identifying, managing, containing, and recovering from security incidents affecting XY Innovate’s digital wallet operations.
+
+This process aligns with:
+
+- ISO/IEC 27001:2022 Clause 10.1 (Improvement)
+- ISO/IEC 27035 (Incident Management principles)
+- ISO/IEC 27031 (ICT Readiness for Business Continuity)
+- GDPR Article 33 (Breach Notification Requirements)
+
+It demonstrates operational security maturity beyond preventative controls.
+
+---
+
+#### Purpose
+
+The process exists to:
+
+- Mitigate operational disruption
+- Protect financial transaction integrity
+- Reduce reputational damage
+- Preserve customer trust
+- Ensure regulatory compliance
+- Support continual ISMS improvement (PDCA cycle)
+
+Incident handling is treated as a governance function, not merely a technical activity.
+
+---
+
+#### Scope
+
+This process applies to:
+
+- Digital wallet application infrastructure
+- Cloud-hosted systems (e.g., Digital Ocean environment)
+- Third-party service integrations
+- Internal staff and contractors
+- Customer financial and personal data assets
+
+This ensures full organisational coverage rather than isolated technical scope.
+
+---
+
+#### Structured Incident Lifecycle
+
+The process follows eight defined phases:
+
+1. Detection & Identification  
+2. Initial Response  
+3. Analysis & Risk-Based Prioritisation  
+4. Nonconformity Review  
+5. Containment & Eradication  
+6. Recovery  
+7. External Reporting  
+8. Post-Incident Evaluation & Improvement  
+
+This demonstrates a formal lifecycle model consistent with ISO best practice.
+
+---
+
+#### Detection & Identification
+
+Security monitoring mechanisms include:
+
+- SIEM systems
+- Intrusion Detection Systems (IDS)
+- Endpoint monitoring tools
+- Log anomaly analysis
+
+Incidents are categorised based on:
+
+- Severity
+- Data sensitivity
+- Compliance exposure
+- Operational impact
+
+This ensures prioritised escalation rather than reactive handling.
+
+---
+
+#### Containment & Technical Response
+
+Immediate actions may include:
+
+- System isolation
+- Credential revocation
+- Firewall rule enforcement
+- Malware removal
+- Patch implementation
+- Configuration correction
+
+Containment is designed to minimise lateral movement and data exposure.
+
+---
+
+#### Risk-Based Analysis
+
+Root cause analysis is conducted to determine:
+
+- Access control weaknesses
+- Credential mismanagement
+- Configuration failures
+- Control breakdowns
+
+Impact is assessed against the CIA triad:
+
+- Confidentiality
+- Integrity
+- Availability
+
+This reinforces linkage between incident handling and risk management.
+
+---
+
+#### Regulatory & External Reporting
+
+Where personal data is affected:
+
+- Notification to the Information Commissioner’s Office (ICO) within 72 hours (GDPR Article 33)
+- Communication to affected data subjects where required
+
+This ensures statutory compliance and transparency.
+
+---
+
+#### Governance & Responsibility Structure
+
+Oversight responsibility: Chief Information Security Officer (CISO)
+
+Operational execution:  
+- IT Team  
+- Digital Wallet Team  
+- Security Operations (SOC)  
+- Incident Response Team  
+
+Employees are obligated to report suspected incidents immediately.
+
+This layered accountability model demonstrates governance maturity.
+
+---
+
+#### Post-Incident Review & Continuous Improvement
+
+Following stabilisation:
+
+- Lessons learned review conducted
+- Control gaps identified
+- ISMS documentation updated
+- Training reinforced
+- Policies revised where necessary
+
+Findings are fed into the Plan–Do–Check–Act (PDCA) cycle.
+
+This ensures continual improvement in alignment with ISO 27001 Clause 10.
+
+---
+
+#### Maturity Indicators Demonstrated
+
+- Formal lifecycle methodology
+- Risk-integrated response handling
+- Regulatory awareness (GDPR alignment)
+- Defined governance ownership
+- Continuous improvement integration
+- Business continuity consideration (ISO 27031)
+
+This reflects a structured and auditable incident management capability.
+
+---
+
+---
+
+### 3. Data Breach Procedure  
+**(Reference: Data_Breach_Procedure.pdf)**
+
+The Data Breach Procedure defines the formalised response framework for managing personal data and financial information breaches affecting XY Innovate’s digital wallet operations.
+
+This procedure aligns with:
+
+- GDPR Article 33 (72-hour notification requirement)
+- ISO/IEC 27001 Incident Management principles
+- ISO/IEC 27035 (Information Security Incident Handling)
+- ISO/IEC 27031 (ICT Readiness & Business Continuity)
+
+It demonstrates regulatory alignment and structured breach governance.
+
+---
+
+#### Purpose
+
+This procedure exists to:
+
+- Safeguard customer PII and financial data
+- Ensure regulatory compliance (GDPR)
+- Mitigate organisational and reputational damage
+- Provide structured breach escalation
+- Maintain transparency and accountability
+
+The focus is both technical containment and regulatory defensibility.
+
+---
+
+#### Scope
+
+Applies to:
+
+- Digital wallet application infrastructure
+- HR management systems
+- Cloud-hosted platforms (e.g., Digital Ocean)
+- Physical data servers
+- Employees, contractors, and third parties handling sensitive data
+
+This reflects comprehensive coverage of internal and external exposure points.
+
+---
+
+#### Structured Data Breach Lifecycle
+
+The procedure follows eight defined steps:
+
+1. Incident Detection  
+2. Immediate Notification  
+3. Initial Assessment  
+4. Containment Measures  
+5. Root Cause Analysis  
+6. Regulatory Notification  
+7. Remediation & Recovery  
+8. Post-Breach Review  
+
+This demonstrates lifecycle-based governance rather than reactive action.
+
+---
+
+#### Detection & Monitoring Controls
+
+Breaches are identified using:
+
+- SIEM platforms  
+- Log monitoring systems  
+- Automated anomaly detection  
+- Credential misuse alerts  
+
+Oversight responsibility: IT Department & Digital Wallet Services Team.
+
+This ensures continuous monitoring rather than reliance on manual reporting.
+
+---
+
+#### Immediate Escalation Protocol
+
+Once identified:
+
+- Incident is reported through a secure internal reporting system
+- Encrypted communication channels are used
+- Incident Response Team is activated
+
+Employees are trained to escalate suspicious behaviour immediately.
+
+This reinforces security awareness integration.
+
+---
+
+#### Assessment & Containment
+
+Initial assessment includes:
+
+- Data classification impact review (PII, financial records)
+- Threat actor identification
+- Scope determination
+- Credential revocation
+- System isolation
+- Failover activation where required
+
+Backup systems are utilised to maintain operational continuity.
+
+---
+
+#### Regulatory Notification Requirements
+
+Where personal data is compromised:
+
+- The CISO must notify the relevant supervisory authority within 72 hours (GDPR Article 33)
+- Affected individuals are informed where legally required
+- Communication is transparent and documented
+
+This demonstrates legal compliance awareness and governance maturity.
+
+---
+
+#### Remediation & Recovery
+
+Following containment:
+
+- Affected systems are restored from secure backups
+- Integrity validation is performed
+- Vulnerabilities are patched
+- Security configurations strengthened
+
+Recovery aligns with ISO/IEC 27031 business continuity principles.
+
+---
+
+#### Post-Breach Review & ISMS Improvement
+
+After stabilisation:
+
+- Full incident documentation is completed
+- Control gaps are identified
+- Policies and procedures updated
+- Training refreshed where weaknesses were identified
+- Findings fed into the PDCA improvement cycle
+
+This ensures the breach strengthens the ISMS rather than weakens it.
+
+---
+
+#### Governance Strength Indicators
+
+This procedure demonstrates:
+
+- Regulatory awareness (GDPR integration)
+- Clear executive accountability (CISO oversight)
+- Structured lifecycle methodology
+- Technical + procedural containment balance
+- Business continuity integration
+- Continuous improvement alignment
+
+This reflects mature breach governance capability.
+
+---
+
+---
+
+### 4. Data Access Control Record  
+**(Reference: Data_Access_Control_Record.pdf)**
+
+The Data Access Control Record is a centralised governance document used to formally track, approve, monitor, and review access permissions across XY Innovate’s systems and data environments.
+
+This record supports:
+
+- ISO/IEC 27001 access control governance requirements  
+- GDPR accountability principles  
+- Least privilege enforcement  
+- Audit traceability and review obligations  
+
+It demonstrates structured access lifecycle management rather than informal permission allocation.
+
+---
+
+#### Purpose
+
+The record exists to:
+
+- Maintain visibility over system and data access
+- Enforce least privilege principles
+- Ensure formal approval authority
+- Support audit readiness
+- Demonstrate regulatory compliance
+
+Access management is treated as a documented governance control.
+
+---
+
+#### Scope
+
+Applies to:
+
+- Digital wallet service (cloud-hosted infrastructure)
+- Customer financial databases
+- HR management systems
+- On-premise data servers
+- Employees, contractors, and third-party personnel
+
+This ensures organisation-wide access governance coverage.
+
+---
+
+#### Core Record Fields
+
+The document includes structured tracking elements:
+
+1. **Asset Name**  
+   Identifies the specific system, database, or infrastructure component.
+
+2. **User Role**  
+   Defines the authority level and functional responsibility of the requesting individual.
+
+3. **Access Level**  
+   Specifies permission type (e.g., read-only, edit, full administrative access).
+
+4. **Justification**  
+   Documents the business or compliance rationale for granting access.
+
+5. **Approval Authority**  
+   Senior management or Digital Wallet Service Manager sign-off.
+
+6. **Access Expiry Date**  
+   Time-bound access enforcement to prevent permission creep.
+
+7. **Monitoring Logs**  
+   Integration with SIEM and log monitoring systems to track activity.
+
+This demonstrates structured access lifecycle control.
+
+---
+
+#### Maintenance & Review Protocol
+
+Access governance includes:
+
+- Manager-level request review
+- CISO approval authority
+- Quarterly access rights review
+- Escalation of anomalies or unauthorised activity
+- Technical log analysis for behavioural monitoring
+
+This aligns with ISO/IEC 27001 requirements for periodic access review and monitoring.
+
+---
+
+#### Governance Strength Indicators
+
+This control demonstrates:
+
+- Formalised access approval workflow
+- Separation of duties (request vs approval)
+- Time-bound privilege management
+- Centralised documentation
+- Log-based monitoring integration
+- Escalation protocol for irregular activity
+
+It reflects mature identity and access governance rather than ad hoc provisioning.
+
+---
+
