@@ -29,6 +29,35 @@ This repository reflects structured ISMS design, risk-based decision-making, and
 
 ---
 
+---
+
+## Key Achievements  
+
+- Designed and documented a structured ISO/IEC 27001:2022-aligned ISMS for a fintech (digital wallet) environment.  
+- Developed a risk-based assessment and treatment methodology aligned to Clause 6 planning requirements.  
+- Produced a formally justified Statement of Applicability (SoA) linking Annex A controls to identified risks.  
+- Integrated GDPR Article 33 breach notification requirements into operational governance procedures.  
+- Designed structured incident response and data breach lifecycles aligned to ISO/IEC 27035 and ISO/IEC 27031 principles.  
+- Implemented formal access control governance incorporating least privilege, approval authority, monitoring, and periodic review.  
+- Demonstrated continuous improvement integration through PDCA-aligned post-incident and review processes.  
+
+---
+
+## Governance Evidence Checklist  
+
+The following ISMS artefacts are documented within this repository:
+
+- ✔ ISMS Scope Definition  
+- ✔ Risk Assessment & Risk Treatment Methodology  
+- ✔ Statement of Applicability (SoA)  
+- ✔ Remote Access Policy  
+- ✔ Incident Response Process  
+- ✔ Data Breach Procedure  
+- ✔ Data Access Control Record  
+- ✔ Governance & Continuous Improvement Integration  
+
+---
+
 ## Organisational Context & ISMS Scope Architecture  
 **(Reference: scope.pdf)**
 
